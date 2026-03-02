@@ -2,7 +2,6 @@ public class UC4 {
     public static void main(String[] args) {
         // Create a String array to hold all 7 lines of the banner
         String[] banner = new String[7];
-
         // Populate each line using String.join()
         banner[0] = String.join(" ",
             "  *****   ", "  *****   ", "  *****   ", " ******* ");
